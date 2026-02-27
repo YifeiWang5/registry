@@ -124,3 +124,12 @@ header p {
 .btn:hover { 
     background-color: #0073d1; 
 }
+
+.header-photo {
+    width: 150px; /* Adjust size as needed */
+    height: 150px;
+    border-radius: 80%; /* Makes it a nice circle */
+    object-fit: cover;
+    margin-bottom: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
