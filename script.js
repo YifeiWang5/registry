@@ -12,6 +12,7 @@ const expenses = [
     {
         id: 2,
         title: "Rental Car",
+        // image: "https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=600&q=80",
         image: "https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=600&q=80",
         defaultAmount: 600,
         note: "Help us get around on the island and explore Kauai's scenic drives! 🚗💨"
@@ -27,7 +28,7 @@ const expenses = [
         id: 3,
         title: "Na Pali Coast Boat Tour",
         image: "https://images.unsplash.com/photo-1574888126749-9f4a132de9bd?auto=format&fit=crop&w=600&q=80", 
-        defaultAmount: 250,
+        defaultAmount: 200,
         note: "Help us sail along the stunning Na Pali cliffs! ⛵"
     },
     {
@@ -37,6 +38,27 @@ const expenses = [
         defaultAmount: 100,
         note: "Fuel for our hike through the 'Grand Canyon of the Pacific.' 🥾"
     },
+    {
+        id: 5,
+        title: "Helicopter Waterfall Tour",
+        image: "https://images.unsplash.com/photo-1580974928064-f0aeef70895a?auto=format&fit=crop&w=600&q=80",
+        defaultAmount: 250,
+        note: "A bird's-eye view of the Manawaiopuna Falls (the Jurassic Park waterfall)! 🚁"
+    },
+    // {
+    //     id: 6,
+    //     title: "Kauai Coffee Estate Tasting",
+    //     image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=600&q=80",
+    //     defaultAmount: 25,
+    //     note: "Keep us caffeinated with a morning tasting tour at the largest coffee estate in the US. ☕"
+    // },
+    {
+        id: 6,
+        title: "Water Gears Rental",
+        image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
+        defaultAmount: 200,
+        note: "For surf and snorkel gears to explore the beaches! 🐠"
+    }
 ];
 
 // 💡 TIP: For local images, create an "assets" folder in your repository, upload your 
