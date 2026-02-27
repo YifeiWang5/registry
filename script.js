@@ -7,14 +7,14 @@ const expenses = [
         title: "Roundtrip Flights",
         image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=600&q=80",
         defaultAmount: 1000,
-        note: "Help us get to Kauai! ✈️"
+        note: "Help us get to Kauai and back! ✈️"
     },
     {
         id: 2,
         title: "Rental Car",
-        image: "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&w=600&q=80",
+        image: "https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=600&q=80",
         defaultAmount: 600,
-        note: "Help us get around on the island! 🚗💨"
+        note: "Help us get around on the island and explore Kauai's scenic drives! 🚗💨"
     },
     // {
     //     id: 3,
@@ -30,42 +30,43 @@ const expenses = [
         defaultAmount: 250,
         note: "Help us sail along the stunning Na Pali cliffs! ⛵"
     },
+    {
+        id: 4,
+        title: "Waimea Canyon Hike Picnic",
+        image: "./assets/our-custom-hiking-photo.jpg", // Example of a local image asset!
+        defaultAmount: 100,
+        note: "Fuel for our hike through the 'Grand Canyon of the Pacific.' 🥾"
+    },
 ];
 
 // 💡 TIP: For local images, create an "assets" folder in your repository, upload your 
 // pictures there, and use the path like "./assets/my-picture.jpg" in the image field.
 
-const expenses = [
+// const expenses = [
     
-    {
-        id: 2,
-        title: "Traditional Hawaiian Luau",
-        image: "https://images.unsplash.com/photo-1542259009477-d625272157b7?auto=format&fit=crop&w=600&q=80",
-        defaultAmount: 100,
-        note: "Poi, Kalua pig, and fire dancing. Treat us to an unforgettable night of Hawaiian culture! 🌺"
-    },
-    {
-        id: 3,
-        title: "Hawaiian Shave Ice Fund",
-        image: "https://images.unsplash.com/photo-1493925439164-968bfa17c669?auto=format&fit=crop&w=600&q=80",
-        defaultAmount: 15,
-        note: "It gets hot in the tropics! Keep us cool with a Macadamia nut ice cream-stuffed shave ice. 🍧"
-    },
-    {
-        id: 4,
-        title: "Waimea Canyon Hike Snacks",
-        image: "./assets/our-custom-hiking-photo.jpg", // Example of a local image asset!
-        defaultAmount: 30,
-        note: "Fuel for our hike through the 'Grand Canyon of the Pacific.' Trail mix and extra water are on you! 🥾"
-    },
-    {
-        id: 5,
-        title: "Dog Boarding & Treats",
-        image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=600&q=80",
-        defaultAmount: 50,
-        note: "Peace of mind for us, and extra belly rubs and treats for the pup while we're away! 🐕"
-    }
-];
+//     {
+//         id: 2,
+//         title: "Traditional Hawaiian Luau",
+//         image: "https://images.unsplash.com/photo-1542259009477-d625272157b7?auto=format&fit=crop&w=600&q=80",
+//         defaultAmount: 100,
+//         note: "Poi, Kalua pig, and fire dancing. Treat us to an unforgettable night of Hawaiian culture! 🌺"
+//     },
+//     {
+//         id: 3,
+//         title: "Hawaiian Shave Ice Fund",
+//         image: "https://images.unsplash.com/photo-1493925439164-968bfa17c669?auto=format&fit=crop&w=600&q=80",
+//         defaultAmount: 15,
+//         note: "It gets hot in the tropics! Keep us cool with a Macadamia nut ice cream-stuffed shave ice. 🍧"
+//     },
+//     
+//     {
+//         id: 5,
+//         title: "Dog Boarding & Treats",
+//         image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=600&q=80",
+//         defaultAmount: 50,
+//         note: "Peace of mind for us, and extra belly rubs and treats for the pup while we're away! 🐕"
+//     }
+// ];
 
 // --- APP LOGIC ---
 const grid = document.getElementById('registry-grid');

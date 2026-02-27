@@ -126,10 +126,10 @@ header p {
 }
 
 .header-photo {
-    width: 150px; /* Adjust size as needed */
-    height: 150px;
-    border-radius: 80%; /* Makes it a nice circle */
-    object-fit: cover;
+    width: auto;
+    height: auto;
+    max-width: 100%; /* Crucial: This prevents a massive photo from stretching off the edge of mobile screens */
     margin-bottom: 1rem;
+    border-radius: 8px; /* Optional: Gives it slightly rounded corners, remove if you want sharp edges */
     box-shadow: 0 4px 12px rgba(0,0,0,0.1);
 }
