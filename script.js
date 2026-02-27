@@ -33,7 +33,7 @@ const expenses = [
     {
         id: 4,
         title: "Waimea Canyon Hike Picnic",
-        image: "./assets/our-custom-hiking-photo.jpg", // Example of a local image asset!
+        image: "./assets/hiking-photo.jpg", // Example of a local image asset!
         defaultAmount: 100,
         note: "Fuel for our hike through the 'Grand Canyon of the Pacific.' 🥾"
     },
