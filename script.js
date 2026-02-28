@@ -17,32 +17,25 @@ const expenses = [
         defaultAmount: 600,
         note: "Help us get around on the island and explore Kauai's scenic drives! 🚗💨"
     },
-    // {
-    //     id: 3,
-    //     title: "Kayak",
-    //     image: "https://images.unsplash.com/photo-1533587851505-d119e1319b7f?auto=format&fit=crop&w=600&q=80",
-    //     defaultAmount: 300,
-    //     note: "Snorkeling and adventures 🐠"
-    // },
     {
         id: 3,
         title: "Na Pali Coast Boat Tour",
-        image: "https://images.unsplash.com/photo-1574888126749-9f4a132de9bd?auto=format&fit=crop&w=600&q=80", 
-        defaultAmount: 200,
+        image: "./assets/boat.jpg", 
+        defaultAmount: 500,
         note: "Help us sail along the stunning Na Pali cliffs! ⛵"
     },
     {
         id: 4,
         title: "Waimea Canyon Hike Picnic",
-        image: "./assets/hiking-photo.jpg", // Example of a local image asset!
+        image: "./assets/hiking-photo.jpg", 
         defaultAmount: 100,
         note: "Fuel for our hike through the 'Grand Canyon of the Pacific.' 🥾"
     },
     {
         id: 5,
         title: "Helicopter Waterfall Tour",
-        image: "https://images.unsplash.com/photo-1580974928064-f0aeef70895a?auto=format&fit=crop&w=600&q=80",
-        defaultAmount: 250,
+        image: "/assets/heli.jpg",
+        defaultAmount: 650,
         note: "A bird's-eye view of the Manawaiopuna Falls (the Jurassic Park waterfall)! 🚁"
     },
     // {
@@ -56,7 +49,7 @@ const expenses = [
         id: 6,
         title: "Water Gears Rental",
         image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
-        defaultAmount: 200,
+        defaultAmount: 500,
         note: "For surf and snorkel gears to explore the beaches! 🐠"
     }
 ];
