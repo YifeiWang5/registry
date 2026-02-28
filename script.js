@@ -4,18 +4,17 @@ const VENMO_USERNAME = "Matt-Goldsmith-4"; // Replace with your actual Venmo han
 const expenses = [
     {
         id: 1,
-        title: "Roundtrip Flights",
-        image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=600&q=80",
-        defaultAmount: 1000,
-        note: "Help us get to Kauai and back! ✈️"
+        title: "Waimea Canyon Hike Picnic",
+        image: "./assets/hiking-photo.jpg", 
+        defaultAmount: 100,
+        note: "Fuel for our hike through the 'Grand Canyon of the Pacific.' 🥾"
     },
     {
         id: 2,
-        title: "Rental Car",
-        // image: "https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=600&q=80",
-        image: "https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=600&q=80",
-        defaultAmount: 600,
-        note: "Help us get around on the island and explore Kauai's scenic drives! 🚗💨"
+        title: "Water Gears Rental",
+        image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
+        defaultAmount: 500,
+        note: "For surf and snorkel gears to explore the beaches! 🐠"
     },
     {
         id: 3,
@@ -26,62 +25,28 @@ const expenses = [
     },
     {
         id: 4,
-        title: "Waimea Canyon Hike Picnic",
-        image: "./assets/hiking-photo.jpg", 
-        defaultAmount: 100,
-        note: "Fuel for our hike through the 'Grand Canyon of the Pacific.' 🥾"
-    },
-    {
-        id: 5,
         title: "Helicopter Waterfall Tour",
         image: "/assets/heli.jpg",
         defaultAmount: 650,
         note: "A bird's-eye view of the Manawaiopuna Falls (the Jurassic Park waterfall)! 🚁"
     },
-    // {
-    //     id: 6,
-    //     title: "Kauai Coffee Estate Tasting",
-    //     image: "https://images.unsplash.com/photo-1497935586351-b67a49e012bf?auto=format&fit=crop&w=600&q=80",
-    //     defaultAmount: 25,
-    //     note: "Keep us caffeinated with a morning tasting tour at the largest coffee estate in the US. ☕"
-    // },
+    {
+        id: 5,
+        title: "Roundtrip Flights",
+        image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=600&q=80",
+        defaultAmount: 1000,
+        note: "Help us get to Kauai and back! ✈️"
+    },
     {
         id: 6,
-        title: "Water Gears Rental",
-        image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?auto=format&fit=crop&w=600&q=80",
-        defaultAmount: 500,
-        note: "For surf and snorkel gears to explore the beaches! 🐠"
+        title: "Rental Car",
+        // image: "https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=600&q=80",
+        image: "https://images.unsplash.com/photo-1520116468816-95b69f847357?auto=format&fit=crop&w=600&q=80",
+        defaultAmount: 600,
+        note: "Help us get around on the island and explore Kauai's scenic drives! 🚗💨"
     }
-];
-
-// 💡 TIP: For local images, create an "assets" folder in your repository, upload your 
-// pictures there, and use the path like "./assets/my-picture.jpg" in the image field.
-
-// const expenses = [
     
-//     {
-//         id: 2,
-//         title: "Traditional Hawaiian Luau",
-//         image: "https://images.unsplash.com/photo-1542259009477-d625272157b7?auto=format&fit=crop&w=600&q=80",
-//         defaultAmount: 100,
-//         note: "Poi, Kalua pig, and fire dancing. Treat us to an unforgettable night of Hawaiian culture! 🌺"
-//     },
-//     {
-//         id: 3,
-//         title: "Hawaiian Shave Ice Fund",
-//         image: "https://images.unsplash.com/photo-1493925439164-968bfa17c669?auto=format&fit=crop&w=600&q=80",
-//         defaultAmount: 15,
-//         note: "It gets hot in the tropics! Keep us cool with a Macadamia nut ice cream-stuffed shave ice. 🍧"
-//     },
-//     
-//     {
-//         id: 5,
-//         title: "Dog Boarding & Treats",
-//         image: "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=600&q=80",
-//         defaultAmount: 50,
-//         note: "Peace of mind for us, and extra belly rubs and treats for the pup while we're away! 🐕"
-//     }
-// ];
+];
 
 // --- APP LOGIC ---
 const grid = document.getElementById('registry-grid');
